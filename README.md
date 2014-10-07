@@ -23,7 +23,7 @@ Given the above Jukebox and Song classes, write the tests required in spec/jukeb
 You should see output at the end of the test results that looks something like:
 `Coverage report generated for RSpec to /Users/scottreynolds/code/ta/labs/simplecov/coverage. 14 / 33 LOC (42.42%) covered.`
 
-3. Open `coverage/index.html` in your browser window to view the report.
+3. Open `coverage/index.html` in your browser window to view the report. Try to get it to 100%. Toggle the individual file view to see which lines are covered by your tests.
 
 ## Resources
 * [Christoph Olszowka](https://github.com/colszowka/) - [SimpleCov](https://github.com/colszowka/simplecov)
