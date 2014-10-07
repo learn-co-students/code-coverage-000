@@ -24,7 +24,6 @@ You should see output at the end of the test results that looks something like:
 `Coverage report generated for RSpec to /Users/scottreynolds/code/ta/labs/simplecov/coverage. 14 / 33 LOC (42.42%) covered.`
 
 3. Open coverage/index.html in your browser window to view the report.
-4. When you hit 100% test coverage, submit either a gist or a repository of your solution and the coverage report
 
 ## Resources
 * [Christoph Olszowka](https://github.com/colszowka/) - [SimpleCov](https://github.com/colszowka/simplecov)

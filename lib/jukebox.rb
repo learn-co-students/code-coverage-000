@@ -41,7 +41,7 @@ class Jukebox
   def list
     list = ""
     songs.each_with_index do |song, i|
-      list += "#{i+1} #{song.name}\n"
+      list += "#{i+1} #{song}\n"
     end
     list
   end
