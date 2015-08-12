@@ -16,7 +16,7 @@ class Jukebox
   end
 
   def help
-    "Please select help, list, exit, or play."
+    puts "Please select help, list, exit, or play."
   end
 
   def command(input)
