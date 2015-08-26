@@ -1,5 +1,12 @@
 
-##RSpec Code Coverage Lab
+# RSpec Code Coverage Lab
+
+## Objectives
+
+1. Introduce a helpful tool for writing tests and ensuring clean and well-functioning code. 
+2. Practice writing your won RSpec tests. 
+
+## Introduction
 
 How do we know we have enough tests, and that our tests cover all of our code?
 
@@ -7,19 +14,22 @@ Enter [simplecov](https://github.com/colszowka/simplecov)! simplecov is a tool t
 
 This is important because you want to be able to know that every decision your program makes is being tested, no matter what.
 
-**Assignment**
+## Overview
 
-Given the above Jukebox and Song classes, write the tests required in spec/jukebox_spec.rb to get yourself to 100% code coverage on simplecov.
+This lab utilizes our Jukebox domain model. We have Jukebox and Song classes. You'll be using the simplecov tool to guide you to write tests that cover 100% of the code in our program.
 
-**Instructions**
+## Instructions
 
 1. Install the simplecov gem with `gem install simplecov`.
 2. Run your spec file with `rspec`.
 
 You should see output at the end of the test results that looks something like:
-`Coverage report generated for RSpec to /Users/scottreynolds/code/ta/labs/simplecov/coverage. 14 / 33 LOC (42.42%) covered.`
 
-3. Open `coverage/index.html` in your browser window to view the report. Try to get it to 100%. Toggle the individual file view to see which lines are covered by your tests.
+```bash
+Coverage report generated for RSpec to /Users/scottreynolds/code/ta/labs/simplecov/coverage. 14 / 33 LOC (42.42%) covered.
+```
+
+3. Open `coverage/index.html` in your browser window to view the report. Try to get the coverage to 100% by writing RSpec tests. Every time you add a test, run `rspec` to see if the test is passing. Every time you run `rspec`, simplecov will also run. Continue to open the `coverage/index.html` file after every run to see your updated test coverage. Toggle the individual file view to see which lines are covered by your tests. 
 
 ## Resources
 * [Christoph Olszowka](https://github.com/colszowka/) - [SimpleCov](https://github.com/colszowka/simplecov)
