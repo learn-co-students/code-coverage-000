@@ -1,10 +1,9 @@
-
 # RSpec Code Coverage Lab
 
 ## Objectives
 
 1. Introduce a helpful tool for writing tests and ensuring clean and well-functioning code. 
-2. Practice writing your won RSpec tests. 
+2. Practice writing your own RSpec tests. 
 
 ## Introduction
 
