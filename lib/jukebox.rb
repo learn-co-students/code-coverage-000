@@ -23,7 +23,9 @@ class Jukebox
     response = ''
 
     if APPROVED_COMMANDS.include?(input.strip.downcase.to_sym)
-      response = self.send(input)
+      ###you wouldn't want to send it the raw input but the striped downcased
+      #response = self.send(input)
+      response = self.send(input.strip.downcase)
     elsif input.start_with?("play")
       song_request = input.split("play").last.strip
       response = self.play(song_request)
